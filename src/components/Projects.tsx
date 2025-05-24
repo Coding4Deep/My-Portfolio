@@ -17,7 +17,7 @@ const Projects = () => {
         "Real-time logging with EFK Stack",
         "Pipeline notifications sent to Slack"
       ],
-      link: "https://lnkd.in/duEQKZQn",
+      link: "https://github.com/Coding4Deep/Java-NodeJs-SpringBoot-Dockerize-Project.git",
       image: "/lovable-uploads/d527fc67-7b96-48f4-b19f-2db221f7492f.png"
     },
     {
@@ -30,7 +30,7 @@ const Projects = () => {
         "Kibana Dashboards: Visualize web server logs and traffic",
         "Elasticsearch Indexing: Log data indexed and queryable instantly"
       ],
-      link: "https://lnkd.in/dBxdmebG",
+      link: "https://github.com/Coding4Deep/EFK-STACK-PROJECT.git",
       image: "/lovable-uploads/ecf212e4-b4bc-4691-be3c-1c458c5f4f13.png"
     }
   ];

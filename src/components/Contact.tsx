@@ -44,7 +44,7 @@ const Contact = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700">
-              <a href="https://linkedin.com/in/deepaksagar" target="_blank" rel="noopener noreferrer" className="inline-flex items-center">
+              <a href="https://www.linkedin.com/in/deepaksagar07/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center">
                 <Linkedin className="mr-2" size={20} />
                 Connect on LinkedIn
               </a>

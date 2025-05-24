@@ -116,7 +116,7 @@ const Hero = () => {
              className="text-gray-400 hover:text-white dark:text-gray-400 dark:hover:text-white light:text-gray-600 light:hover:text-slate-900 transition-colors duration-300">
             <Github size={32} />
           </a>
-          <a href="https://linkedin.com/in/deepaksagar" target="_blank" rel="noopener noreferrer"
+          <a href="https://www.linkedin.com/in/deepaksagar07/" target="_blank" rel="noopener noreferrer"
              className="text-gray-400 hover:text-white dark:text-gray-400 dark:hover:text-white light:text-gray-600 light:hover:text-slate-900 transition-colors duration-300">
             <Linkedin size={32} />
           </a>
