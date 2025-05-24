@@ -87,9 +87,9 @@ const Skills = () => {
           Technical Skills
         </h2>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
           {skillCategories.map((category, index) => (
-            <div key={index} className="bg-slate-800 dark:bg-slate-800 rounded-xl p-6 hover:transform hover:scale-105 transition-all duration-300">
+            <div key={index} className="bg-slate-800 dark:bg-slate-800 rounded-xl p-6 hover:transform hover:scale-105 transition-all duration-300 w-full max-w-sm">
               <h3 className={`text-xl font-semibold mb-4 bg-gradient-to-r ${category.color} bg-clip-text text-transparent`}>
                 {category.title}
               </h3>
@@ -115,27 +115,51 @@ const Skills = () => {
           <div className="bg-slate-800 dark:bg-slate-800 rounded-xl p-8">
             <div className="space-y-4">
               <div className="flex justify-between items-center">
-                <span className="text-orange-400 font-medium">Java</span>
-                <span className="text-gray-400">42.34%</span>
+                <span className="text-blue-400 font-medium">Dockerfile</span>
+                <span className="text-gray-400">20.15%</span>
               </div>
               <div className="w-full bg-slate-700 rounded-full h-2">
-                <div className="bg-gradient-to-r from-orange-400 to-orange-500 h-2 rounded-full" style={{width: '42.34%'}}></div>
+                <div className="bg-gradient-to-r from-blue-400 to-blue-500 h-2 rounded-full" style={{width: '20.15%'}}></div>
+              </div>
+
+              <div className="flex justify-between items-center">
+                <span className="text-green-400 font-medium">Jenkinsfile</span>
+                <span className="text-gray-400">18.50%</span>
+              </div>
+              <div className="w-full bg-slate-700 rounded-full h-2">
+                <div className="bg-gradient-to-r from-green-400 to-green-500 h-2 rounded-full" style={{width: '18.50%'}}></div>
               </div>
               
               <div className="flex justify-between items-center">
-                <span className="text-purple-400 font-medium">CSS</span>
-                <span className="text-gray-400">25.30%</span>
+                <span className="text-yellow-400 font-medium">YAML</span>
+                <span className="text-gray-400">16.30%</span>
               </div>
               <div className="w-full bg-slate-700 rounded-full h-2">
-                <div className="bg-gradient-to-r from-purple-400 to-purple-500 h-2 rounded-full" style={{width: '25.30%'}}></div>
+                <div className="bg-gradient-to-r from-yellow-400 to-yellow-500 h-2 rounded-full" style={{width: '16.30%'}}></div>
+              </div>
+
+              <div className="flex justify-between items-center">
+                <span className="text-purple-400 font-medium">JSON</span>
+                <span className="text-gray-400">14.20%</span>
+              </div>
+              <div className="w-full bg-slate-700 rounded-full h-2">
+                <div className="bg-gradient-to-r from-purple-400 to-purple-500 h-2 rounded-full" style={{width: '14.20%'}}></div>
+              </div>
+
+              <div className="flex justify-between items-center">
+                <span className="text-cyan-400 font-medium">Bash</span>
+                <span className="text-gray-400">15.85%</span>
+              </div>
+              <div className="w-full bg-slate-700 rounded-full h-2">
+                <div className="bg-gradient-to-r from-cyan-400 to-cyan-500 h-2 rounded-full" style={{width: '15.85%'}}></div>
               </div>
               
               <div className="flex justify-between items-center">
-                <span className="text-pink-400 font-medium">SCSS</span>
-                <span className="text-gray-400">9.15%</span>
+                <span className="text-orange-400 font-medium">Python</span>
+                <span className="text-gray-400">15.00%</span>
               </div>
               <div className="w-full bg-slate-700 rounded-full h-2">
-                <div className="bg-gradient-to-r from-pink-400 to-pink-500 h-2 rounded-full" style={{width: '9.15%'}}></div>
+                <div className="bg-gradient-to-r from-orange-400 to-orange-500 h-2 rounded-full" style={{width: '15.00%'}}></div>
               </div>
             </div>
           </div>
