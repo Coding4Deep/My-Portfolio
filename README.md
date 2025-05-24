@@ -25,7 +25,8 @@ This portfolio website showcases my expertise as a **DevOps Engineer** with comp
 - 🐳 **Container Orchestration** with Docker & Kubernetes
 - 🔄 **CI/CD Pipeline** automation with Jenkins
 - 📊 **Monitoring & Observability** with Prometheus & Grafana
-- 🛡️ **Security** best practices implementation
+- 🛡️ **Security Tools** including Trivy, SonarQube, OWASP ZAP & Checkov
+- 🌙 **Dark/Light Theme** toggle support
 
 ---
 
@@ -46,6 +47,12 @@ This portfolio website showcases my expertise as a **DevOps Engineer** with comp
 ![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
+
+### Security Tools
+![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge&logo=trivy&logoColor=white)
+![SonarQube](https://img.shields.io/badge/SonarQube-black?style=for-the-badge&logo=sonarqube&logoColor=4E9BCD)
+![OWASP](https://img.shields.io/badge/OWASP%20ZAP-00549E?style=for-the-badge&logo=owasp&logoColor=white)
+![Checkov](https://img.shields.io/badge/Checkov-892CA0?style=for-the-badge&logo=checkov&logoColor=white)
 
 ---
 
@@ -107,9 +114,9 @@ npm run preview
 │   └── 📄 favicon.ico
 ├── 📂 src/
 │   ├── 📂 components/
-│   │   ├── 🏠 Hero.tsx         # Landing section
+│   │   ├── 🏠 Hero.tsx         # Landing section with theme toggle
 │   │   ├── 👤 About.tsx        # About me section
-│   │   ├── 🛠️ Skills.tsx       # Technical skills
+│   │   ├── 🛠️ Skills.tsx       # Technical skills with security tools
 │   │   ├── 💼 Projects.tsx     # Featured projects
 │   │   ├── 💻 Experience.tsx   # Work experience
 │   │   ├── 🎓 Education.tsx    # Educational background
@@ -134,7 +141,7 @@ npm run preview
 
 ### 🎨 Modern Design
 - **Responsive Layout**: Optimized for all device sizes
-- **Dark Theme**: Professional dark color scheme
+- **Dark/Light Theme**: Toggle between themes with a button
 - **Gradient Effects**: Eye-catching visual elements
 - **Smooth Animations**: Enhanced user experience
 
@@ -142,9 +149,9 @@ npm run preview
 
 | Section | Description | Technologies |
 |---------|-------------|--------------|
-| 🏠 **Hero** | Introduction and key highlights | React, Tailwind CSS |
+| 🏠 **Hero** | Introduction with theme toggle | React, Tailwind CSS |
 | 👤 **About** | Professional background | TypeScript |
-| 🛠️ **Skills** | Technical expertise with badges | Shield.io badges |
+| 🛠️ **Skills** | Technical expertise with security tools | Shield.io badges |
 | 💼 **Projects** | Featured DevOps projects | Interactive cards |
 | 💻 **Experience** | Current role at DigiEra | Timeline layout |
 | 🎓 **Education** | Academic background | Card components |
@@ -175,11 +182,29 @@ npm run preview
 ## 🛡️ Security & Best Practices
 
 - ✅ **Type Safety** with TypeScript
+- ✅ **Security Scanning** with Trivy, SonarQube, OWASP ZAP, Checkov
 - ✅ **Code Quality** with ESLint
 - ✅ **Responsive Design** principles
 - ✅ **Accessibility** standards
 - ✅ **SEO Optimization**
 - ✅ **Performance** optimization
+
+---
+
+## 📄 Resume Download
+
+To enable resume download functionality:
+
+1. **Option 1: Google Docs (Recommended)**
+   - Upload your resume to Google Docs
+   - Make it public or share with link access
+   - Replace the URL in `Hero.tsx` line 19 with your Google Docs export link
+   - Format: `https://docs.google.com/document/d/YOUR_DOC_ID/export?format=pdf`
+
+2. **Option 2: Direct PDF Upload**
+   - Place your resume PDF in the `public` folder
+   - Update the href in `Hero.tsx` to point to your PDF file
+   - Example: `link.href = '/your-resume.pdf';`
 
 ---
 

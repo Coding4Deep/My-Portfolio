@@ -1,8 +1,17 @@
 
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Download, Eye } from "lucide-react";
+import { Github, Linkedin, Download, Eye, Moon, Sun } from "lucide-react";
+import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
 
 const Hero = () => {
+  const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   const handleViewWork = () => {
     const projectsSection = document.getElementById('projects');
     if (projectsSection) {
@@ -11,17 +20,36 @@ const Hero = () => {
   };
 
   const handleDownloadResume = () => {
-    // Create a temporary link to download resume
+    // Create a proper download link
     const link = document.createElement('a');
-    link.href = '/resume-deepak-sagar.pdf'; // You'll need to add your resume to the public folder
+    link.href = 'https://docs.google.com/document/d/1your-resume-id/export?format=pdf'; // Replace with your actual Google Docs resume link
     link.download = 'Deepak_Sagar_DevOps_Resume.pdf';
+    link.target = '_blank';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   };
 
+  const toggleTheme = () => {
+    setTheme(theme === 'dark' ? 'light' : 'dark');
+  };
+
+  if (!mounted) return null;
+
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 dark:from-slate-900 dark:via-blue-900 dark:to-slate-800 text-white relative overflow-hidden">
+      {/* Theme Toggle Button */}
+      <div className="absolute top-6 right-6 z-20">
+        <Button
+          variant="outline"
+          size="icon"
+          onClick={toggleTheme}
+          className="border-white/20 text-white hover:bg-white/10"
+        >
+          {theme === 'dark' ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+        </Button>
+      </div>
+
       {/* Background Animation */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-20 left-20 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>

@@ -35,6 +35,17 @@ const Skills = () => {
       color: "from-purple-500 to-violet-500"
     },
     {
+      title: "Security & Compliance",
+      skills: [
+        { name: "Trivy", badge: "https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge&logo=trivy&logoColor=white" },
+        { name: "SonarQube", badge: "https://img.shields.io/badge/SonarQube-black?style=for-the-badge&logo=sonarqube&logoColor=4E9BCD" },
+        { name: "OWASP ZAP", badge: "https://img.shields.io/badge/OWASP%20ZAP-00549E?style=for-the-badge&logo=owasp&logoColor=white" },
+        { name: "Checkov", badge: "https://img.shields.io/badge/Checkov-892CA0?style=for-the-badge&logo=checkov&logoColor=white" },
+        { name: "Security Scanning", badge: "https://img.shields.io/badge/Security_Scanning-FF6B6B?style=for-the-badge&logo=security&logoColor=white" }
+      ],
+      color: "from-red-500 to-pink-500"
+    },
+    {
       title: "Monitoring & Observability",
       skills: [
         { name: "Prometheus", badge: "https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white" },
@@ -61,7 +72,6 @@ const Skills = () => {
       skills: [
         { name: "Git", badge: "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" },
         { name: "Slack", badge: "https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" },
-        { name: "SonarQube", badge: "https://img.shields.io/badge/SonarQube-black?style=for-the-badge&logo=sonarqube&logoColor=4E9BCD" },
         { name: "Nexus Repo", badge: "https://img.shields.io/badge/Nexus-1B1C30?style=for-the-badge&logo=sonatype&logoColor=white" },
         { name: "VS Code", badge: "https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" },
         { name: "PyCharm", badge: "https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green" }
@@ -71,7 +81,7 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="py-20 bg-slate-900 text-white">
+    <section id="skills" className="py-20 bg-slate-900 dark:bg-slate-900 text-white">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text text-transparent">
           Technical Skills
@@ -79,7 +89,7 @@ const Skills = () => {
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skillCategories.map((category, index) => (
-            <div key={index} className="bg-slate-800 rounded-xl p-6 hover:transform hover:scale-105 transition-all duration-300">
+            <div key={index} className="bg-slate-800 dark:bg-slate-800 rounded-xl p-6 hover:transform hover:scale-105 transition-all duration-300">
               <h3 className={`text-xl font-semibold mb-4 bg-gradient-to-r ${category.color} bg-clip-text text-transparent`}>
                 {category.title}
               </h3>
@@ -102,7 +112,7 @@ const Skills = () => {
         {/* Language Proficiency */}
         <div className="mt-16 max-w-3xl mx-auto">
           <h3 className="text-2xl font-semibold text-center mb-8 text-blue-400">Most Used Languages</h3>
-          <div className="bg-slate-800 rounded-xl p-8">
+          <div className="bg-slate-800 dark:bg-slate-800 rounded-xl p-8">
             <div className="space-y-4">
               <div className="flex justify-between items-center">
                 <span className="text-orange-400 font-medium">Java</span>
