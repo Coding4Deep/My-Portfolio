@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# 🚀 Deepak Sagar - DevOps Engineer Portfolio
+#  **Deepak Sagar - DevOps Engineer Portfolio**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=for-the-badge&logo=netlify)](https://lovable.dev/projects/c4d5c241-d9ba-4888-9d00-e096abb3fa54)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/deepaksagar)
