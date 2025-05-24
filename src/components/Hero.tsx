@@ -1,8 +1,25 @@
 
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin } from "lucide-react";
+import { Github, Linkedin, Download, Eye } from "lucide-react";
 
 const Hero = () => {
+  const handleViewWork = () => {
+    const projectsSection = document.getElementById('projects');
+    if (projectsSection) {
+      projectsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const handleDownloadResume = () => {
+    // Create a temporary link to download resume
+    const link = document.createElement('a');
+    link.href = '/resume-deepak-sagar.pdf'; // You'll need to add your resume to the public folder
+    link.download = 'Deepak_Sagar_DevOps_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white relative overflow-hidden">
       {/* Background Animation */}
@@ -46,10 +63,21 @@ const Hero = () => {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-          <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg">
+          <Button 
+            size="lg" 
+            className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg"
+            onClick={handleViewWork}
+          >
+            <Eye className="mr-2" size={20} />
             View My Work
           </Button>
-          <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-slate-900 px-8 py-4 text-lg">
+          <Button 
+            variant="outline" 
+            size="lg" 
+            className="border-white text-white hover:bg-white hover:text-slate-900 px-8 py-4 text-lg"
+            onClick={handleDownloadResume}
+          >
+            <Download className="mr-2" size={20} />
             Download Resume
           </Button>
         </div>
