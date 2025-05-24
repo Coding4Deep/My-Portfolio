@@ -62,15 +62,15 @@ This portfolio website showcases my expertise as a **DevOps Engineer** with comp
 
 Make sure you have the following installed:
 
-- ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) **Node.js** (v18 or higher)
-- ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) **npm** or **yarn**
-- ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) **Git**
+- ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) *(v18 or higher)*
+- ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) 
+- ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) 
 
 ### 🔧 Installation
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Coding4Deep/portfolio.git
+   git clone <url>
    cd portfolio
    ```
 
@@ -189,39 +189,6 @@ npm run preview
 - ✅ **SEO Optimization**
 - ✅ **Performance** optimization
 
----
-
-## 📄 Resume Download
-
-To enable resume download functionality:
-
-1. **Option 1: Google Docs (Recommended)**
-   - Upload your resume to Google Docs
-   - Make it public or share with link access
-   - Replace the URL in `Hero.tsx` line 19 with your Google Docs export link
-   - Format: `https://docs.google.com/document/d/YOUR_DOC_ID/export?format=pdf`
-
-2. **Option 2: Direct PDF Upload**
-   - Place your resume PDF in the `public` folder
-   - Update the href in `Hero.tsx` to point to your PDF file
-   - Example: `link.href = '/your-resume.pdf';`
-
----
-
-## 🚀 Deployment
-
-### Using Lovable Platform
-1. Connect to your Lovable account
-2. Click "Publish" in the editor
-3. Your site is live instantly!
-
-### Alternative Deployment Options
-
-#### Netlify
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Coding4Deep/portfolio)
-
-#### Vercel
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Coding4Deep/portfolio)
 
 ---
 
@@ -263,30 +230,14 @@ Contributions, issues, and feature requests are welcome!
 </div>
 
 ---
-
-## 📄 License
-
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- ![Lovable](https://img.shields.io/badge/Built_with-Lovable-FF6B6B?style=for-the-badge) **Lovable Platform** for rapid development
-- ![Tailwind](https://img.shields.io/badge/Styled_with-Tailwind_CSS-38B2AC?style=for-the-badge) **Tailwind CSS** for beautiful styling
-- ![Shields.io](https://img.shields.io/badge/Badges_by-Shields.io-brightgreen?style=for-the-badge) **Shields.io** for amazing badges
-- ![Lucide](https://img.shields.io/badge/Icons_by-Lucide-000000?style=for-the-badge) **Lucide React** for beautiful icons
 
 ---
 
 <div align="center">
 
-### ⭐ Star this repository if you found it helpful!
+> #### Star this repository if you found it helpful!
 
-![Stars](https://img.shields.io/github/stars/Coding4Deep/portfolio?style=social)
-![Forks](https://img.shields.io/github/forks/Coding4Deep/portfolio?style=social)
-![Watchers](https://img.shields.io/github/watchers/Coding4Deep/portfolio?style=social)
-
-**Made with ❤️ by Deepak Sagar**
+> **Made with ❤️ by Deepak Sagar**
 
 </div>
