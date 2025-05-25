@@ -13,7 +13,7 @@
 </div>
 
 ---
-
+![DevOps Portfolio ](Screenshot1.png)
 ## 🎯 Overview
 
 This portfolio website showcases my expertise as a **DevOps Engineer** with comprehensive experience in cloud infrastructure, automation, and modern deployment practices. Built with cutting-edge web technologies to demonstrate both technical skills and attention to detail.
@@ -29,7 +29,7 @@ This portfolio website showcases my expertise as a **DevOps Engineer** with comp
 - 🌙 **Dark/Light Theme** toggle support
 
 ---
-
+![DevOps Portfolio ](Screenshot2.png)
 ## 🛠️ Tech Stack
 
 ### Frontend Technologies
