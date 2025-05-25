@@ -188,8 +188,6 @@ Contributions, issues, and feature requests are welcome!
 
 ---
 
-## 📞 Contact & Connect
-
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deepaksagar07/)
@@ -203,14 +201,11 @@ Contributions, issues, and feature requests are welcome!
 </div>
 
 ---
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 <div align="center">
-
+   
+> This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 > #### Star this repository if you found it helpful!
-
 > **Made with ❤️ by Deepak Sagar**
 
 </div>
