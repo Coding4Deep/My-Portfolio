@@ -160,25 +160,7 @@ npm run preview
 | 🎓 **Education** | Academic background | Card components |
 | 📞 **Contact** | Professional links | Social integration |
 
-### ⚡ Performance Optimizations
-- **Tree Shaking**: Optimized bundle size
-- **Lazy Loading**: Efficient image loading
-- **Component Splitting**: Modular architecture
-- **TypeScript**: Type safety and better DX
 
----
-
-## 🎯 DevOps Projects Highlighted
-
-### 1. 🔄 End-to-End CI/CD Pipeline
-- **Technologies**: Jenkins, Docker, Spring Boot, EFK Stack
-- **Features**: Automated deployment, real-time monitoring
-- **Integration**: Slack notifications, vulnerability scanning
-
-### 2. 📊 EFK Stack + NGINX Logging
-- **Technologies**: Elasticsearch, Fluentd, Kibana, NGINX
-- **Features**: Centralized logging, real-time visualization
-- **Architecture**: Containerized microservices
 
 ---
 
@@ -191,18 +173,6 @@ npm run preview
 - ✅ **Accessibility** standards
 - ✅ **SEO Optimization**
 - ✅ **Performance** optimization
-
-
----
-
-## 📈 Performance Metrics
-
-![Lighthouse](https://img.shields.io/badge/Lighthouse-F44B21?style=for-the-badge&logo=lighthouse&logoColor=white)
-
-- 🚀 **Performance**: 95+
-- ♿ **Accessibility**: 100
-- 💡 **Best Practices**: 100
-- 🔍 **SEO**: 100
 
 ---
 
