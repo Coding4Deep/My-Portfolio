@@ -153,7 +153,6 @@ npm run preview
 
 | Section | Description | Technologies |
 |---------|-------------|--------------|
-| 🏠 **Hero** | Introduction with theme toggle | React, Tailwind CSS |
 | 👤 **About** | Professional background | TypeScript |
 | 🛠️ **Skills** | Technical expertise with security tools | Shield.io badges |
 | 💼 **Projects** | Featured DevOps projects | Interactive cards |
